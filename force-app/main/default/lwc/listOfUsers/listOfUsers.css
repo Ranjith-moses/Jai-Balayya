@@ -1,3 +1,14 @@
+:host {
+   --color-bg : rgb(131, 16, 198);
+   --background-color: aquamarine;
+   --margin: 1rem;
+   --padding: 1rem 1rem 3rem 1rem;
+   --border: 1px dotted rgb(131, 16, 198);
+}
+
 .aa{
-    border: 1px solid red;
+   background-color: var(--color-bg);
+   margin: var(--margin);
+   padding: var(--padding);
+   border: var(--border);
 }

@@ -1,0 +1,19 @@
+:host{
+  --border: 1px dotted aqua;
+  --padding: 1rem;
+  --margin: 1rem;
+  --background-color1: bisque;
+  --background-color: crimson;
+  --float: right;
+}
+
+.bb{
+    border: var(--border);
+    padding: var(--padding);
+    margin: var(--margin);
+    background-color: var(--background-color1);
+}
+.abc{
+  background-color: var(--background-color);
+    float: var(--float);
+}
