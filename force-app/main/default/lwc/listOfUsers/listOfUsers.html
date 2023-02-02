@@ -1,11 +1,23 @@
 <template>
-    <div class="aa">
-    <h1>List of users</h1>
-    <ul>
-        <li></li><br>
-        <li></li><br>
-        <li></li><br>
-
-    </ul>
-</div>
+    <div class="bb">
+    <h1>List of User's</h1>
+    <!--lightning-card title="List of User's" class="aa"> 
+    </lightning-card--> 
+    <div class="cc">
+      <template if:true={showuser} > 
+        the selected user is <strong>{selecteduser}</strong></br> 
+        <lightning-button variant="brand" label="SaveUser" title="Primary action" onclick={handleSaveUserClick} class="slds-m-left_x-small"></lightning-button> 
+      </template> 
+      <template if:true={retriveduserName}> 
+        the retrived user Name <strong>{retriveduserName}</strong> 
+      </template> 
+      <template if:true={retrivedusers}> 
+      <template for:each={retrivedusers} for:item="retrivedusers"> 
+        <div key={retrivedusers.id}> 
+    <c-git-users retrived-user={retrivedusers} onuserclicked={handleonuserclicked}></c-git-users> 
+        </div> 
+      </template> 
+      </template> 
+    </div>
+    </div>
 </template>

@@ -7,8 +7,17 @@
 }
 
 .aa{
-   background-color: var(--color-bg);
+   background-image:url("https://cdn.pixabay.com/photo/2022/07/11/08/44/tower-7314495_640.jpg.jpg");
    margin: var(--margin);
    padding: var(--padding);
    border: var(--border);
+}
+.bb{
+   background-image: url("https://cdn.pixabay.com/photo/2023/01/01/13/47/street-7690119__340.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 1px solid rgb(139, 10, 10);
+}
+.cc{
+   color: white;
 }

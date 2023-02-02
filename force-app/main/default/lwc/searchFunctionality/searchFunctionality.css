@@ -1,17 +1,18 @@
 :host{
-  --border: 1px dotted aqua;
+  --border: 1px solid rgb(139, 10, 10);
   --padding: 1rem;
-  --margin: 1rem;
+  --margin: 1px;
   --background-color1: bisque;
   --background-color: crimson;
   --float: right;
 }
 
 .bb{
-    border: var(--border);
-    padding: var(--padding);
-    margin: var(--margin);
-    background-color: var(--background-color1);
+  border: var(--border);
+  padding: var(--padding);
+  margin: var(--margin);
+    color: aquamarine;
+    background-image: url("https://cdn.pixabay.com/photo/2022/11/27/18/01/flowers-7620428__340.jpg");
 }
 .abc{
   background-color: var(--background-color);

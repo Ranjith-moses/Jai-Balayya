@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="GitHub Users">
+        <template if:true={users.data}>
+            <template for:each={users.data} for:item="user">
+                <p key={user.id}>{user.login}</p>
+            </template>
+        </template>
+    </lightning-card>
+</template>
