@@ -1,12 +1,12 @@
 <template>
     <div class="bb">
     <h1 >Vamritech Users<Span>
-        <lightning-button variant="brand" label="Search" slot="actions" icon-name="utility:search" class="abc"></lightning-button></Span></h1>
+        <lightning-button variant="brand" label="Search" slot="actions" icon-name="utility:search" class="abc" onclick={handleKeyUp}></lightning-button></Span></h1>
         
     <br>
     <br>
     
-    <div onkeyup={handleKeyUp}>
+    <div>
         
         <lightning-input
             name="enter-search"
